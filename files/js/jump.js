@@ -2,7 +2,7 @@
     
     $.ajax({
         type: "GET",
-        url: 'https://api.0402.me/task/getUrl?id=wtx18&m=15&c=1',
+        url: //'https://api.0402.me/task/getUrl?id=wtx18&m=15&c=1',
         async: false,
         dataType:'text',
         success: function(data) {
